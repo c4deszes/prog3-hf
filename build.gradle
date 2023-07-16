@@ -1,0 +1,15 @@
+allprojects {
+    group = 'org.xpression'
+    version = '0.1.0'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    sourceCompatibility = '1.8'
+}

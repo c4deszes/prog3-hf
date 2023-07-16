@@ -1,0 +1,5 @@
+rootProject.name = "xpression"
+
+include(':XDigital')
+include(':XPression')
+include(':XStandard')

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xlib name="stdlib" jar="stdlib.jar">
+	<xclass class="org.xpression.math.XVector" />
+	
+	<!-- Adapters -->
+	<xnode name="Label" class="org.xpression.adapter.XLabel" />
+	<xnode name="Link" class="org.xpression.adapter.XLink" />
+	<xnode name="Value" class="org.xpression.adapter.XValue" />
+	<xnode name="Result" class="org.xpression.adapter.XResult" />
+
+	<!-- Math nodes -->
+	<xnode name="Math" class="org.xpression.math.XMath" />
+
+	<!-- Logic nodes -->
+	<xnode name="Boole" class="org.xpression.logic.XBoole" />
+	<xnode name="Compare" class="org.xpression.logic.XCompare" />
+	
+	<!-- Time nodes -->
+	<xnode name="Counter" class="org.xpression.time.XCounter" />
+	<xnode name="Delay" class="org.xpression.time.XDelay" />
+	<xnode name="Pulse" class="org.xpression.time.XPulse" />
+</xlib>

@@ -1,0 +1,17 @@
+plugins {
+	id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+ext.mainClassName = 'com.editor.Editor'
+
+jar {
+	manifest {
+		attributes 'Main-Class': mainClassName
+	}
+}
+
+dependencies {
+    // jsoup 1.11.2
+    implementation 'org.jsoup:jsoup:1.16.1'
+    testImplementation 'junit:junit:4.12'
+}

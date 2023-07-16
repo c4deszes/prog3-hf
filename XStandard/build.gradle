@@ -1,0 +1,6 @@
+
+dependencies {
+    implementation project(':XPression')
+    implementation 'org.jsoup:jsoup:1.16.1'
+    testImplementation 'junit:junit:4.12'
+}
